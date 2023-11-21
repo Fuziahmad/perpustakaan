@@ -1,0 +1,864 @@
+INFO - 2023-06-30 13:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'sentence', 'sentence')
+ 3 APPPATH\Controllers\FakerController.php(23): Faker\Generator->__get('sentence')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(24): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'company', 'company')
+ 3 APPPATH\Controllers\FakerController.php(25): Faker\Generator->__get('company')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'sentence', 'sentence')
+ 3 APPPATH\Controllers\FakerController.php(23): Faker\Generator->__get('sentence')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(24): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'company', 'company')
+ 3 APPPATH\Controllers\FakerController.php(25): Faker\Generator->__get('company')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'sentence', 'sentence')
+ 3 APPPATH\Controllers\FakerController.php(23): Faker\Generator->__get('sentence')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(24): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'company', 'company')
+ 3 APPPATH\Controllers\FakerController.php(25): Faker\Generator->__get('company')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'sentence', 'sentence')
+ 3 APPPATH\Controllers\FakerController.php(23): Faker\Generator->__get('sentence')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(24): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'company', 'company')
+ 3 APPPATH\Controllers\FakerController.php(25): Faker\Generator->__get('company')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'sentence', 'sentence')
+ 3 APPPATH\Controllers\FakerController.php(23): Faker\Generator->__get('sentence')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(24): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'company', 'company')
+ 3 APPPATH\Controllers\FakerController.php(25): Faker\Generator->__get('company')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'sentence', 'sentence')
+ 3 APPPATH\Controllers\FakerController.php(23): Faker\Generator->__get('sentence')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(24): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'company', 'company')
+ 3 APPPATH\Controllers\FakerController.php(25): Faker\Generator->__get('company')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'sentence', 'sentence')
+ 3 APPPATH\Controllers\FakerController.php(23): Faker\Generator->__get('sentence')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(24): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'company', 'company')
+ 3 APPPATH\Controllers\FakerController.php(25): Faker\Generator->__get('company')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'sentence', 'sentence')
+ 3 APPPATH\Controllers\FakerController.php(23): Faker\Generator->__get('sentence')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(24): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'company', 'company')
+ 3 APPPATH\Controllers\FakerController.php(25): Faker\Generator->__get('company')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'sentence', 'sentence')
+ 3 APPPATH\Controllers\FakerController.php(23): Faker\Generator->__get('sentence')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(24): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'company', 'company')
+ 3 APPPATH\Controllers\FakerController.php(25): Faker\Generator->__get('company')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "sentence" is deprecated, use "sentence()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'sentence', 'sentence')
+ 3 APPPATH\Controllers\FakerController.php(23): Faker\Generator->__get('sentence')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(24): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 13:59:50 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "company" is deprecated, use "company()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'company', 'company')
+ 3 APPPATH\Controllers\FakerController.php(25): Faker\Generator->__get('company')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 13:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:24:56 --> Invalid file: "App\views\auth\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\views\\auth\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('App\\views\\auth\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('App\\views\\auth\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('App\\views\\auth\\login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 14:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:35:08 --> Undefined variable $data
+in APPPATH\Views\auth\login.php on line 1.
+ 1 APPPATH\Views\auth\login.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\perpustakaan\\app\\Views\\auth\\login.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\perpustakaan\\app\\Views\\auth\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('App\\Views\\auth\\login', [], true)
+ 5 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('App\\Views\\auth\\login', [...])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('App\\Views\\auth\\login', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 14:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:35:27 --> Undefined variable $title
+in APPPATH\Views\header_view.php on line 7.
+ 1 APPPATH\Views\header_view.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\perpustakaan\\app\\Views\\header_view.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\perpustakaan\\app\\Views\\header_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('header_view', [], true)
+ 5 APPPATH\Views\auth\login.php(1): view('header_view')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\perpustakaan\\app\\Views\\auth\\login.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('App\\Views\\auth\\login', [], true)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('App\\Views\\auth\\login', [...])
+10 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('App\\Views\\auth\\login', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 14:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:38:35 --> Undefined variable $title
+in APPPATH\Views\header_view.php on line 7.
+ 1 APPPATH\Views\header_view.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\perpustakaan\\app\\Views\\header_view.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\perpustakaan\\app\\Views\\header_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('header_view', [], true)
+ 5 APPPATH\Views\auth\login.php(1): view('header_view')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\perpustakaan\\app\\Views\\auth\\login.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('App\\Views\\auth\\login', [], true)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('App\\Views\\auth\\login', [...])
+10 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('App\\Views\\auth\\login', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 14:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:38:37 --> Undefined variable $title
+in APPPATH\Views\header_view.php on line 7.
+ 1 APPPATH\Views\header_view.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\perpustakaan\\app\\Views\\header_view.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\perpustakaan\\app\\Views\\header_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('header_view', [], true)
+ 5 APPPATH\Views\auth\login.php(1): view('header_view')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\perpustakaan\\app\\Views\\auth\\login.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('App\\Views\\auth\\login', [], true)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('App\\Views\\auth\\login', [...])
+10 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('App\\Views\\auth\\login', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 14:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:38:44 --> Undefined variable $title
+in APPPATH\Views\header_view.php on line 7.
+ 1 APPPATH\Views\header_view.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\perpustakaan\\app\\Views\\header_view.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\perpustakaan\\app\\Views\\header_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('header_view', [], true)
+ 5 APPPATH\Views\auth\login.php(1): view('header_view')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\perpustakaan\\app\\Views\\auth\\login.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('App\\Views\\auth\\login', [], true)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('App\\Views\\auth\\login', [...])
+10 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('App\\Views\\auth\\login', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 14:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:43:46 --> Undefined variable $getData
+in APPPATH\Views\buku_view.php on line 30.
+ 1 APPPATH\Views\buku_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getData', 'C:\\perpustakaan\\app\\Views\\buku_view.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\perpustakaan\\app\\Views\\buku_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_view', [], true)
+ 5 APPPATH\Controllers\Login.php(13): view('buku_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 14:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-30 14:55:08 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(47): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->anggota()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 14:55:08 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(47): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->anggota()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 14:55:08 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(47): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->anggota()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 14:55:08 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(47): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->anggota()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 14:55:08 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(47): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->anggota()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 14:55:08 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(47): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->anggota()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 14:55:08 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(47): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->anggota()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 14:55:08 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(47): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->anggota()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 14:55:09 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(47): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->anggota()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+WARNING - 2023-06-30 14:55:09 --> [DEPRECATED] Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead. in VENDORPATH\symfony\deprecation-contracts\function.php on line 25.
+ 1 VENDORPATH\symfony\deprecation-contracts\function.php(25): trigger_error('Since fakerphp/faker 1.14: Accessing property "name" is deprecated, use "name()" instead.', 16384)
+ 2 VENDORPATH\fakerphp\faker\src\Faker\Generator.php(950): trigger_deprecation('fakerphp/faker', '1.14', 'Accessing property "%s" is deprecated, use "%s()" instead.', 'name', 'name')
+ 3 APPPATH\Controllers\FakerController.php(47): Faker\Generator->__get('name')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FakerController->anggota()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FakerController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 14:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 14:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:45:04 --> Undefined array key 1
+in VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php on line 77.
+ 1 VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\perpustakaan\\vendor\\myth\\auth\\src\\Authentication\\Passwords\\NothingPersonalValidator.php', 77)
+ 2 VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(26): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('admin123', Object(Myth\Auth\Entities\User))
+ 3 VENDORPATH\myth\auth\src\Authentication\Passwords\PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('admin123', Object(Myth\Auth\Entities\User))
+ 4 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check('admin123', Object(Myth\Auth\Entities\User))
+ 5 SYSTEMPATH\Validation\Validation.php(320): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('admin123', null)
+ 6 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin123', [...], [...])
+ 7 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 VENDORPATH\myth\auth\src\Controllers\AuthController.php(164): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 15:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:46:55 --> Undefined array key 1
+in VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php on line 77.
+ 1 VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\perpustakaan\\vendor\\myth\\auth\\src\\Authentication\\Passwords\\NothingPersonalValidator.php', 77)
+ 2 VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(26): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('admin123', Object(Myth\Auth\Entities\User))
+ 3 VENDORPATH\myth\auth\src\Authentication\Passwords\PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('admin123', Object(Myth\Auth\Entities\User))
+ 4 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check('admin123', Object(Myth\Auth\Entities\User))
+ 5 SYSTEMPATH\Validation\Validation.php(320): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('admin123', null)
+ 6 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin123', [...], [...])
+ 7 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 VENDORPATH\myth\auth\src\Controllers\AuthController.php(164): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 15:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:48:11 --> Trying to access array offset on value of type null
+in SYSTEMPATH\Validation\Validation.php on line 674.
+ 1 SYSTEMPATH\Validation\Validation.php(674): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\perpustakaan\\system\\Validation\\Validation.php', 674)
+ 2 SYSTEMPATH\Validation\Validation.php(138): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(154): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 15:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:50:44 --> Undefined array key 1
+in VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php on line 77.
+ 1 VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\perpustakaan\\vendor\\myth\\auth\\src\\Authentication\\Passwords\\NothingPersonalValidator.php', 77)
+ 2 VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(26): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('<?=lang(\'auth.register\')?>', Object(Myth\Auth\Entities\User))
+ 3 VENDORPATH\myth\auth\src\Authentication\Passwords\PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('<?=lang(\'auth.register\')?>', Object(Myth\Auth\Entities\User))
+ 4 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check('<?=lang(\'Auth.register\')?>', Object(Myth\Auth\Entities\User))
+ 5 SYSTEMPATH\Validation\Validation.php(320): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('<?=lang(\'Auth.register\')?>', null)
+ 6 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('password', 'password', '<?=lang(\'Auth.register\')?>', [...], [...])
+ 7 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 VENDORPATH\myth\auth\src\Controllers\AuthController.php(164): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 15:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:21:38 --> Undefined array key 1
+in VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php on line 77.
+ 1 VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\perpustakaan\\vendor\\myth\\auth\\src\\Authentication\\Passwords\\NothingPersonalValidator.php', 77)
+ 2 VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(26): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('admin123', Object(Myth\Auth\Entities\User))
+ 3 VENDORPATH\myth\auth\src\Authentication\Passwords\PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('admin123', Object(Myth\Auth\Entities\User))
+ 4 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check('admin123', Object(Myth\Auth\Entities\User))
+ 5 SYSTEMPATH\Validation\Validation.php(320): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('admin123', null)
+ 6 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin123', [...], [...])
+ 7 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 VENDORPATH\myth\auth\src\Controllers\AuthController.php(164): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 16:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:24:28 --> Undefined array key 1
+in VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php on line 77.
+ 1 VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\perpustakaan\\vendor\\myth\\auth\\src\\Authentication\\Passwords\\NothingPersonalValidator.php', 77)
+ 2 VENDORPATH\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(26): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('admin123', Object(Myth\Auth\Entities\User))
+ 3 VENDORPATH\myth\auth\src\Authentication\Passwords\PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('admin123', Object(Myth\Auth\Entities\User))
+ 4 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check('admin123', Object(Myth\Auth\Entities\User))
+ 5 SYSTEMPATH\Validation\Validation.php(320): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('admin123', null)
+ 6 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin123', [...], [...])
+ 7 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 VENDORPATH\myth\auth\src\Controllers\AuthController.php(164): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 16:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-30 17:08:29 --> mysqli_sql_exception: Incorrect column name 'nama    ' in C:\perpustakaan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\perpustakaan\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\perpustakaan\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\perpustakaan\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(38): CodeIgniter\Database\Forge->createTable('users', true)
+#5 C:\perpustakaan\system\Database\MigrationRunner.php(877): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\perpustakaan\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\perpustakaan\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\perpustakaan\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\perpustakaan\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\perpustakaan\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2023-06-30 17:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-30 17:10:34 --> mysqli_sql_exception: Incorrect column name 'nama    ' in C:\perpustakaan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\perpustakaan\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\perpustakaan\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\perpustakaan\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(38): CodeIgniter\Database\Forge->createTable('users', true)
+#5 C:\perpustakaan\system\Database\MigrationRunner.php(877): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\perpustakaan\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\perpustakaan\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\perpustakaan\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\perpustakaan\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\perpustakaan\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-30 17:11:49 --> mysqli_sql_exception: Incorrect column name 'nama    ' in C:\perpustakaan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\perpustakaan\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\perpustakaan\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\perpustakaan\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(38): CodeIgniter\Database\Forge->createTable('users', true)
+#5 C:\perpustakaan\system\Database\MigrationRunner.php(877): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\perpustakaan\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\perpustakaan\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\perpustakaan\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\perpustakaan\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\perpustakaan\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-30 17:12:23 --> mysqli_sql_exception: Incorrect column name 'nama    ' in C:\perpustakaan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\perpustakaan\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\perpustakaan\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\perpustakaan\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(38): CodeIgniter\Database\Forge->createTable('users', true)
+#5 C:\perpustakaan\system\Database\MigrationRunner.php(877): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\perpustakaan\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\perpustakaan\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\perpustakaan\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\perpustakaan\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\perpustakaan\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-30 17:19:02 --> mysqli_sql_exception: Table 'db_perpustakaan.tbl_buku' doesn't exist in C:\perpustakaan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\perpustakaan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\perpustakaan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\perpustakaan\app\Models\Buku_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\perpustakaan\app\Controllers\Buku.php(19): App\Models\Buku_Model->getBuku()
+#6 C:\perpustakaan\system\CodeIgniter.php(934): App\Controllers\Buku->index()
+#7 C:\perpustakaan\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\perpustakaan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\perpustakaan\system\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan...')
+#11 {main}
+CRITICAL - 2023-06-30 17:19:02 --> Table 'db_perpustakaan.tbl_buku' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_buku`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_buku`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_buku`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_buku`', [], false)
+ 5 APPPATH\Models\Buku_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Buku.php(19): App\Models\Buku_Model->getBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-30 17:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

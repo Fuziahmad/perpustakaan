@@ -1,0 +1,188 @@
+ERROR - 2023-06-09 12:32:02 --> mysqli_sql_exception: Table 'db_perpustakaan.tbl_buku' doesn't exist in C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\app\Models\Buku_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan\app\Controllers\Buku.php(14): App\Models\Buku_Model->getBuku()
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(934): App\Controllers\Buku->index()
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-09 12:32:02 --> Table 'db_perpustakaan.tbl_buku' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_buku`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_buku`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_buku`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_buku`', [], false)
+ 5 APPPATH\Models\Buku_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Buku.php(14): App\Models\Buku_Model->getBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 12:51:51 --> Undefined index: judul
+in APPPATH\Views\buku_view.php on line 23.
+ 1 APPPATH\Views\buku_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: judul', 'C:\\xampp\\htdocs\\perpustakaan\\app\\Views\\buku_view.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\perpustakaan\\app\\Views\\buku_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_view', [], true)
+ 5 APPPATH\Controllers\Buku.php(16): view('buku_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 12:52:18 --> Undefined index: kd_buku
+in APPPATH\Views\buku_view.php on line 27.
+ 1 APPPATH\Views\buku_view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: kd_buku', 'C:\\xampp\\htdocs\\perpustakaan\\app\\Views\\buku_view.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\perpustakaan\\app\\Views\\buku_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_view', [], true)
+ 5 APPPATH\Controllers\Buku.php(16): view('buku_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:11:13 --> Undefined index: kode_buku
+in APPPATH\Views\anggota_view.php on line 29.
+ 1 APPPATH\Views\anggota_view.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: kode_buku', 'C:\\xampp\\htdocs\\perpustakaan\\app\\Views\\anggota_view.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\perpustakaan\\app\\Views\\anggota_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('anggota_view', [], true)
+ 5 APPPATH\Controllers\Anggota.php(16): view('anggota_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Anggota->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:12:12 --> Undefined index: kd_angota
+in APPPATH\Views\anggota_view.php on line 30.
+ 1 APPPATH\Views\anggota_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: kd_angota', 'C:\\xampp\\htdocs\\perpustakaan\\app\\Views\\anggota_view.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\perpustakaan\\app\\Views\\anggota_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('anggota_view', [], true)
+ 5 APPPATH\Controllers\Anggota.php(16): view('anggota_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Anggota->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:30:52 --> syntax error, unexpected '}'
+in APPPATH\Controllers\Buku.php on line 35.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('buku/tambah')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('buku/tambah')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('buku/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:48:10 --> Allowed fields must be specified for model: "App\Models\Buku_Model"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Buku_Model')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Models\Buku_model.php(23): CodeIgniter\BaseModel->save([...])
+ 6 APPPATH\Controllers\Buku.php(38): App\Models\Buku_Model->setBuku([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->createBuku()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:49:10 --> syntax error, unexpected '$table' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Buku.php on line 7.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('buku/tambah')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('buku/tambah')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('buku/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:49:12 --> syntax error, unexpected '$table' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Buku.php on line 7.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('buku')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('buku')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('buku')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:49:41 --> syntax error, unexpected '$allowedfields' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Buku.php on line 7.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('buku')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('buku')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('buku')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:49:43 --> syntax error, unexpected '$allowedfields' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Buku.php on line 7.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('buku/tambah')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('buku/tambah')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('buku/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:49:50 --> syntax error, unexpected '$allowedfields' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Buku.php on line 7.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('buku')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('buku')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('buku')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:52:05 --> Allowed fields must be specified for model: "App\Models\Buku_Model"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Buku_Model')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Models\Buku_model.php(23): CodeIgniter\BaseModel->save([...])
+ 6 APPPATH\Controllers\Buku.php(39): App\Models\Buku_Model->setBuku([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->createBuku()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:54:01 --> Allowed fields must be specified for model: "App\Models\Buku_Model"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Buku_Model')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Models\Buku_model.php(23): CodeIgniter\BaseModel->save([...])
+ 6 APPPATH\Controllers\Buku.php(39): App\Models\Buku_Model->setBuku([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->createBuku()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:55:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(297): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\Buku_model.php(24): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Buku.php(39): App\Models\Buku_Model->setBuku([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->createBuku()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:57:55 --> You must use the "set" method to insert an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2351.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2291): CodeIgniter\Database\BaseBuilder->validateInsert()
+ 2 APPPATH\Models\Buku_model.php(24): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Buku.php(39): App\Models\Buku_Model->setBuku([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->createBuku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:58:19 --> You must use the "set" method to insert an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2351.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2291): CodeIgniter\Database\BaseBuilder->validateInsert()
+ 2 APPPATH\Models\Buku_model.php(24): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Buku.php(39): App\Models\Buku_Model->setBuku([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->createBuku()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

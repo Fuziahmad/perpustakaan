@@ -1,0 +1,255 @@
+INFO - 2023-06-19 08:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-19 08:27:06 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\perpustakaan\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\perpustakaan\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_perpustakaan', 3306, '', 0)
+#1 C:\perpustakaan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\perpustakaan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\perpustakaan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\perpustakaan\app\Models\Buku_model.php(18): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\perpustakaan\app\Controllers\Buku.php(53): App\Models\Buku_Model->getBuku('9')
+#6 C:\perpustakaan\system\CodeIgniter.php(934): App\Controllers\Buku->editBuku('9')
+#7 C:\perpustakaan\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\perpustakaan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\perpustakaan\system\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\perpustakaan\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\perpustakaan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\perpustakaan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\perpustakaan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\perpustakaan\app\Models\Buku_model.php(18): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#4 C:\perpustakaan\app\Controllers\Buku.php(53): App\Models\Buku_Model->getBuku('9')
+#5 C:\perpustakaan\system\CodeIgniter.php(934): App\Controllers\Buku->editBuku('9')
+#6 C:\perpustakaan\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\perpustakaan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\perpustakaan\system\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan...')
+#10 {main}
+CRITICAL - 2023-06-19 08:27:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_buku`
+WHERE `kd_buku` = :kd_buku:', [...], false)
+ 3 APPPATH\Models\Buku_model.php(18): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 4 APPPATH\Controllers\Buku.php(53): App\Models\Buku_Model->getBuku('9')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->editBuku('9')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-19 08:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-19 08:28:14 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in C:\perpustakaan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\perpustakaan\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\perpustakaan\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\perpustakaan\app\Models\Anggota_Model.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\perpustakaan\app\Controllers\Anggota.php(45): App\Models\Anggota_Model->setAnggota(Array)
+#6 C:\perpustakaan\system\CodeIgniter.php(934): App\Controllers\Anggota->createAnggota()
+#7 C:\perpustakaan\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#8 C:\perpustakaan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\perpustakaan\system\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan...')
+#11 {main}
+CRITICAL - 2023-06-19 08:28:14 --> Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_anggota` (`title`, `nama`, `jk`, `alamat`, `status`) VALUES (\'Tambah Anggota\', \'Mollit possimus imp\', \'Laki Laki\', \'Voluptas omnis lorem\', \'Aktif\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_anggota` (`title`, `nama`, `jk`, `alamat`, `status`) VALUES (\'Tambah Anggota\', \'Mollit possimus imp\', \'Laki Laki\', \'Voluptas omnis lorem\', \'Aktif\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_anggota` (`title`, `nama`, `jk`, `alamat`, `status`) VALUES (\'Tambah Anggota\', \'Mollit possimus imp\', \'Laki Laki\', \'Voluptas omnis lorem\', \'Aktif\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_anggota` (`title`, `nama`, `jk`, `alamat`, `status`) VALUES (:title:, :nama:, :jk:, :alamat:, :status:)', [...], false)
+ 5 APPPATH\Models\Anggota_Model.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Anggota.php(45): App\Models\Anggota_Model->setAnggota([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Anggota->createAnggota()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-19 08:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-19 08:28:46 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in C:\perpustakaan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\perpustakaan\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\perpustakaan\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\perpustakaan\app\Models\Anggota_Model.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\perpustakaan\app\Controllers\Anggota.php(45): App\Models\Anggota_Model->setAnggota(Array)
+#6 C:\perpustakaan\system\CodeIgniter.php(934): App\Controllers\Anggota->createAnggota()
+#7 C:\perpustakaan\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#8 C:\perpustakaan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\perpustakaan\system\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan...')
+#11 {main}
+CRITICAL - 2023-06-19 08:28:46 --> Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_anggota` (`title`, `nama`, `jk`, `alamat`, `status`) VALUES (\'Tambah Anggota\', \'Aliquip consectetur \', \'Laki Laki\', \'Quia voluptas accusa\', \'Aktif\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_anggota` (`title`, `nama`, `jk`, `alamat`, `status`) VALUES (\'Tambah Anggota\', \'Aliquip consectetur \', \'Laki Laki\', \'Quia voluptas accusa\', \'Aktif\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_anggota` (`title`, `nama`, `jk`, `alamat`, `status`) VALUES (\'Tambah Anggota\', \'Aliquip consectetur \', \'Laki Laki\', \'Quia voluptas accusa\', \'Aktif\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_anggota` (`title`, `nama`, `jk`, `alamat`, `status`) VALUES (:title:, :nama:, :jk:, :alamat:, :status:)', [...], false)
+ 5 APPPATH\Models\Anggota_Model.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Anggota.php(45): App\Models\Anggota_Model->setAnggota([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Anggota->createAnggota()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+ERROR - 2023-06-19 08:30:16 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in C:\perpustakaan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\perpustakaan\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\perpustakaan\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\perpustakaan\app\Models\Anggota_Model.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\perpustakaan\app\Controllers\Anggota.php(45): App\Models\Anggota_Model->setAnggota(Array)
+#6 C:\perpustakaan\system\CodeIgniter.php(934): App\Controllers\Anggota->createAnggota()
+#7 C:\perpustakaan\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#8 C:\perpustakaan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\perpustakaan\system\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan...')
+#11 {main}
+CRITICAL - 2023-06-19 08:30:16 --> Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_anggota` (`title`, `nama`, `jk`, `alamat`, `status`) VALUES (\'Tambah Anggota\', \'Aliquip consectetur \', \'Laki Laki\', \'Quia voluptas accusa\', \'Aktif\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_anggota` (`title`, `nama`, `jk`, `alamat`, `status`) VALUES (\'Tambah Anggota\', \'Aliquip consectetur \', \'Laki Laki\', \'Quia voluptas accusa\', \'Aktif\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_anggota` (`title`, `nama`, `jk`, `alamat`, `status`) VALUES (\'Tambah Anggota\', \'Aliquip consectetur \', \'Laki Laki\', \'Quia voluptas accusa\', \'Aktif\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_anggota` (`title`, `nama`, `jk`, `alamat`, `status`) VALUES (:title:, :nama:, :jk:, :alamat:, :status:)', [...], false)
+ 5 APPPATH\Models\Anggota_Model.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Anggota.php(45): App\Models\Anggota_Model->setAnggota([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Anggota->createAnggota()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-19 08:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 08:34:09 --> Undefined variable $data
+in APPPATH\Views\header_view.php on line 19.
+ 1 APPPATH\Views\header_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\perpustakaan\\app\\Views\\header_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\perpustakaan\\app\\Views\\header_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('header_view', [], true)
+ 5 APPPATH\Controllers\Buku.php(19): view('header_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-19 08:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 08:44:30 --> Undefined variable $isi
+in APPPATH\Views\buku_view.php on line 24.
+ 1 APPPATH\Views\buku_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'C:\\perpustakaan\\app\\Views\\buku_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\perpustakaan\\app\\Views\\buku_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_view', [], true)
+ 5 APPPATH\Controllers\Buku.php(20): view('buku_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\perpustakaan\\public\\index.php')
+INFO - 2023-06-19 08:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 08:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
